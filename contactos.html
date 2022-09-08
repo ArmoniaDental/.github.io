@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="armonia" content="dental" >
+    <link rel="icon" href="favicon.ico">
+    <title>Contactos Armonia Dental</title>
+    <!-- Simple bar CSS -->
+    <link rel="stylesheet" href="plataforma/css/simplebar.css">
+    <!-- Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="plataforma/css/feather.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Date Range Picker CSS -->
+    <link rel="stylesheet" href="plataforma/css/daterangepicker.css">
+    <!-- App CSS -->
+    <link rel="stylesheet" href="plataforma/css/app-light.css" id="lightTheme">
+    <link rel="stylesheet" href="plataforma/css/app-dark.css" id="darkTheme" disabled>
+  </head>
+  <body class="vertical  light  ">
+    <div class="wrapper">
+      <nav class="topnav navbar navbar-light">
+        <button type="button" class="navbar-toggler text-muted mt-2 p-0 mr-3 collapseSidebar">
+          <i class="fe fe-menu navbar-toggler-icon"></i>
+        </button>
+        
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-muted my-2" href="#" id="modeSwitcher" data-mode="light">
+              <i class="fe fe-sun fe-16"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted my-2" href="./#" data-toggle="modal" data-target=".modal-shortcut">
+              <span class="fe fe-grid fe-16"></span>
+            </a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-muted pr-0" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="avatar avatar-sm mt-2">
+                <img src="plataforma/assets/avatars/face-1.jpg" alt="..." class="avatar-img rounded-circle">
+              </span>
+            </a>
+ 
+          </li>
+        </ul>
+      </nav>
+      <aside class="sidebar-left border-right bg-white shadow" id="leftSidebar" data-simplebar>
+        <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3" data-toggle="toggle">
+          <i class="fe fe-x"><span class="sr-only"></span></i>
+        </a>
+        <nav class="vertnav navbar navbar-light">
+          <!-- nav bar -->
+				<div class="logo">
+            		<img src="plataforma/assets/images/logo.png" alt="">
+            	</div>
+          <ul class="navbar-nav flex-fill w-100 mb-2">
+            <li class="nav-item dropdown">
+              <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
+                <i class="fe fe-home fe-16"></i>
+                <span class="ml-3 item-text">Paginas</span><span class="sr-only">(Principales)</span>
+              </a>
+              <ul class="collapse list-unstyled pl-4 w-100" id="dashboard">
+                <li class="nav-item active">
+                  <a class="nav-link pl-3" href="./index.html"><span class="ml-1 item-text">Inicio</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3" href="./galeria.html"><span class="ml-1 item-text">Galeria</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3" href="./dentista.html"><span class="ml-1 item-text">Dentista</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3" href="./protesis.html"><span class="ml-1 item-text">Protesis</span></a>
+                </li>
+             
+              </ul>
+            </li>
+          </ul>
+      
+          <ul class="navbar-nav flex-fill w-100 mb-2">
+  		      <li class="nav-item w-100">
+              <a class="nav-link" href="calendario.html">
+                <i class="fe fe-calendar fe-16"></i>
+                <span class="ml-3 item-text">Calendario</span>
+              </a>
+            </li>
+			   <li class="nav-item w-100">
+              <a class="nav-link" href="contactos.html">
+                <i class="fe fe-users fe-16"></i>
+                <span class="ml-3 item-text">Socios</span>
+              </a>
+            </li>
+          </ul>
+          <p class="text-muted nav-heading mt-4 mb-1">
+            <span>Grupos</span>
+          </p>
+          <ul class="navbar-nav flex-fill w-100 mb-2">
+            <li class="nav-item w-100">
+              <a class="nav-link" href="calendar.html">
+                <i class="fe fe-facebook fe-16"></i>
+                <span class="ml-3 item-text">Facebook</span>
+              </a>
+            </li>
+            <li class="nav-item w-100">
+              <a class="nav-link" href="calendar.html">
+                <i class="fab fa-tiktok fa-16"></i>
+                <span class="ml-3 item-text">Tiktok</span>
+                <span class="badge badge-pill badge-primary">New</span>
+              </a>
+            </li>
+             <li class="nav-item w-100">
+              <a class="nav-link" href="calendar.html">
+                <i class="fe fe-instagram fe-16"></i>
+                <span class="ml-3 item-text">Instagram</span>
+              </a>
+            </li>
+            <li class="nav-item w-100">
+              <a class="nav-link" href="calendar.html">
+                <i class="fe fe-youtube fe-16"></i>
+                <span class="ml-3 item-text">Youtube</span>
+              </a>
+            </li>
+            <li class="nav-item w-100">
+              <a class="nav-link" href="calendar.html">
+                <i class="fab fa-whatsapp "></i>
+                <span class="ml-3 item-text">Whatsapp</span>
+              </a>
+            </li>
+ 			 <li class="nav-item w-100">
+              <a class="nav-link" href="calendar.html">
+                <i class="fe fe-send fe-16"></i>
+                <span class="ml-3 item-text">Telegram</span>
+              </a>
+            </li>
+          </ul>
+    
+          <div class="btn-box w-100 mt-4 mb-1">
+            <a href="https://buy.stripe.com/3cs4ip9tE9Xn0EwaET" target="_blank" class="btn mb-2 btn-primary btn-lg btn-block">
+              <i class="fe fe-shopping-cart fe-12 mx-2"></i><span class="small">Comprar</span>
+            </a>
+          </div>
+        </nav>
+      </aside>
+      <main role="main" class="main-content">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12">
+          
+              <!-- table -->
+              <div class="card shadow">
+                <div class="card-body">
+                  <table class="table table-borderless table-hover">
+                    <thead>
+                      <tr>
+                   
+                        
+                        <th>Usuario</th>
+                        <th>Compañia</th>
+                        <th>Ciudad</th>
+                        <th>Contacto</th>
+                        <th>Cumple</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                   
+                        <td>
+                          <div class="avatar avatar-sm">
+                            <img src="plataforma/assets/avatars/face-3.jpg" alt="..." class="avatar-img rounded-circle">
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><strong>Esteban.</strong></p>
+                          <small class="mb-0 text-muted">2474</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted">TD</p>
+                          <small class="mb-0 text-muted">lugar calle y asi</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><a href="#" class="text-muted">(777) 123-4567</a></p>
+                          <small class="mb-0 text-muted">mx</small>
+                        </td>
+                        <td class="text-muted">13/09/2020</td>
+                      
+                      </tr>
+                      <tr>
+                   
+                        <td>
+                          <div class="avatar avatar-sm">
+                            <img src="plataforma/assets/avatars/face-3.jpg" alt="..." class="avatar-img rounded-circle">
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><strong>Esteban.</strong></p>
+                          <small class="mb-0 text-muted">2474</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted">TD</p>
+                          <small class="mb-0 text-muted">lugar calle y asi</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><a href="#" class="text-muted">(777) 123-4567</a></p>
+                          <small class="mb-0 text-muted">mx</small>
+                        </td>
+                        <td class="text-muted">13/09/2020</td>
+                      
+                      </tr>
+                      <tr>
+                   
+                        <td>
+                          <div class="avatar avatar-sm">
+                            <img src="plataforma/assets/avatars/face-3.jpg" alt="..." class="avatar-img rounded-circle">
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><strong>Esteban.</strong></p>
+                          <small class="mb-0 text-muted">2474</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted">TD</p>
+                          <small class="mb-0 text-muted">lugar calle y asi</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><a href="#" class="text-muted">(777) 123-4567</a></p>
+                          <small class="mb-0 text-muted">mx</small>
+                        </td>
+                        <td class="text-muted">13/09/2020</td>
+                      
+                      </tr>
+                      
+                      <tr>
+                   
+                        <td>
+                          <div class="avatar avatar-sm">
+                            <img src="plataforma/assets/avatars/face-3.jpg" alt="..." class="avatar-img rounded-circle">
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><strong>Esteban.</strong></p>
+                          <small class="mb-0 text-muted">2474</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted">TD</p>
+                          <small class="mb-0 text-muted">lugar calle y asi</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><a href="#" class="text-muted">(777) 123-4567</a></p>
+                          <small class="mb-0 text-muted">mx</small>
+                        </td>
+                        <td class="text-muted">13/09/2020</td>
+                      
+                      </tr>
+                      
+                      <tr>
+                   
+                        <td>
+                          <div class="avatar avatar-sm">
+                            <img src="plataforma/assets/avatars/face-3.jpg" alt="..." class="avatar-img rounded-circle">
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><strong>Esteban.</strong></p>
+                          <small class="mb-0 text-muted">2474</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted">TD</p>
+                          <small class="mb-0 text-muted">lugar calle y asi</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><a href="#" class="text-muted">(777) 123-4567</a></p>
+                          <small class="mb-0 text-muted">mx</small>
+                        </td>
+                        <td class="text-muted">13/09/2020</td>
+                      
+                      </tr>
+                      
+                      <tr>
+                   
+                        <td>
+                          <div class="avatar avatar-sm">
+                            <img src="plataforma/assets/avatars/face-3.jpg" alt="..." class="avatar-img rounded-circle">
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><strong>Esteban.</strong></p>
+                          <small class="mb-0 text-muted">2474</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted">TD</p>
+                          <small class="mb-0 text-muted">lugar calle y asi</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><a href="#" class="text-muted">(777) 123-4567</a></p>
+                          <small class="mb-0 text-muted">mx</small>
+                        </td>
+                        <td class="text-muted">13/09/2020</td>
+                      
+                      </tr>
+                      
+                      <tr>
+                   
+                        <td>
+                          <div class="avatar avatar-sm">
+                            <img src="plataforma/assets/avatars/face-3.jpg" alt="..." class="avatar-img rounded-circle">
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><strong>Esteban.</strong></p>
+                          <small class="mb-0 text-muted">2474</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted">TD</p>
+                          <small class="mb-0 text-muted">lugar calle y asi</small>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-muted"><a href="#" class="text-muted">(777) 123-4567</a></p>
+                          <small class="mb-0 text-muted">mx</small>
+                        </td>
+                        <td class="text-muted">13/09/2020</td>
+                      
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <nav aria-label="Table Paging" class="my-3">
+                <ul class="pagination justify-content-end mb-0">
+                  <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+                </ul>
+              </nav>
+            </div> <!-- .col-12 -->
+          </div> <!-- .row -->
+        </div> <!-- .container-fluid -->
+   
+        <div class="modal fade modal-shortcut modal-slide" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="defaultModalLabel">Links</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body px-5">
+                <div class="row align-items-center">
+                  <div class="col-6 text-center">
+                    <div class="squircle bg-primary justify-content-center">
+                      <i class="fe fe-facebook fe-32 align-self-center text-white"></i>
+                    </div>
+                    <p>Facebook</p>
+                  </div>
+                  <div class="col-6 text-center">
+                    <div class="squircle bg-primary justify-content-center">
+                      <i class="fab fa-tiktok fa-32 align-self-center text-white"></i>
+                    </div>
+                    <p>TikTok</p>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-6 text-center">
+                    <div class="squircle bg-primary justify-content-center">
+                      <i class="fe fe-instagram fe-32 align-self-center text-white"></i>
+                    </div>
+                    <p>Instagram</p>
+                  </div>
+                  <div class="col-6 text-center">
+                    <div class="squircle bg-primary justify-content-center">
+                      <i class="fe fe-youtube fe-32 align-self-center text-white"></i>
+                    </div>
+                    <p>Youtube</p>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-6 text-center">
+                    <div class="squircle bg-primary justify-content-center">
+                      <i class="fab fa-whatsapp fa-32 align-self-center text-white"></i>
+                    </div>
+                    <p>Whatsapp</p>
+                  </div>
+                  <div class="col-6 text-center">
+                    <div class="squircle bg-primary justify-content-center">
+                      <i class="fe fe-send fe-32 align-self-center text-white"></i>
+                    </div>
+                    <p>Telegram</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main> <!-- main -->
+    </div> <!-- .wrapper -->
+    <script src="plataforma/js/jquery.min.js"></script>
+    <script src="plataforma/js/popper.min.js"></script>
+    <script src="plataforma/js/moment.min.js"></script>
+    <script src="plataforma/js/bootstrap.min.js"></script>
+    <script src="plataforma/js/simplebar.min.js"></script>
+    <script src='plataforma/js/daterangepicker.js'></script>
+    <script src='plataforma/js/jquery.stickOnScroll.js'></script>
+    <script src="plataforma/js/tinycolor-min.js"></script>
+    <script src="plataforma/js/config.js"></script>
+    <script src="plataforma/js/apps.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56159088-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag()
+      {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-56159088-1');
+    </script>
+  </body>
+</html>
